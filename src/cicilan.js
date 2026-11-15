@@ -19,12 +19,12 @@ function bulatkan(angka) {
 
 function hitungTotalBunga(pokok, bunga, tenor) {
   cekInput(pokok, bunga, tenor);
-  return bulatkan(pokok * (bunga / 100) * (tenor / 12));
+  return bulatkan(pokok * (bunga / 100) * tenor);
 }
 
 function hitungCicilan(pokok, bunga, tenor) {
   cekInput(pokok, bunga, tenor);
-  const totalBunga = pokok * (bunga / 100) * (tenor / 12);
+  const totalBunga = pokok * (bunga / 100) * tenor;
   return bulatkan((pokok + totalBunga) / tenor);
 }
 
