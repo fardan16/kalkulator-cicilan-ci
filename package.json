@@ -1,0 +1,13 @@
+{
+  "name": "kalkulator-cicilan",
+  "version": "1.0.0",
+  "description": "Kalkulator cicilan sederhana (bunga flat) untuk praktik pipeline CI dengan GitHub Actions",
+  "main": "src/cicilan.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
